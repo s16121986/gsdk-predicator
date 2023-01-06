@@ -1,0 +1,30 @@
+{
+  "name": "gsdk/predicator",
+  "type": "library",
+  "description": "Allows add last-modified header to response",
+  "version": "1.0.0",
+  "keywords": [
+	"gsdk"
+  ],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Sergey Guryanov",
+	  "email": "s16121986@yandex.ru"
+	}
+  ],
+  "require": {
+	"php": ">=8.0.2",
+	"laravel/framework": ">=8.0"
+  },
+  "require-dev": {
+  },
+  "conflict": {
+  },
+  "autoload": {
+	"psr-4": {
+	  "Gsdk\\Predicator\\": ""
+	}
+  },
+  "minimum-stability": "dev"
+}
